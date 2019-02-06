@@ -1,8 +1,21 @@
+@include google-font("Josefin+Sans:300,400,400i|Nunito:300,300i");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 body {
-  background: orangered;
-  text-align: center;
-  h1 {
-    color: white;
-    font-size: 50px;
-  }
+  font-family: $font-primary;
+  color: $color-grey-dark-2;
+  font-weight: 300;
+  line-height: 1.6;
 }
